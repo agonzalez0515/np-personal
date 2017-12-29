@@ -57,7 +57,7 @@ const Header = props =>
             color: `white`,
             fontWeight: `bold`,
             fontStyle: `italic`,
-            fontSize: `1.25rem`,
+            fontSize: `1.40rem`,
             letterSpacing: `2px`
           }}
           to={props.to}>
@@ -97,7 +97,7 @@ const TemplateWrapper = ({ children }) => (
     <div
       css={{
         margin: '0 auto',
-        maxWidth: 960,
+        width: `auto`,
         padding: '0px 1.0875rem 1.45rem',
         paddingTop: 0,
       }}

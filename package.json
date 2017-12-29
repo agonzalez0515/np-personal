@@ -9,6 +9,7 @@
     "gatsby-plugin-glamor": "^1.6.10",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-typography": "^1.7.10",
+    "gatsby-source-google-sheets": "^1.0.5",
     "typography-theme-github": "^0.15.10"
   },
   "keywords": [

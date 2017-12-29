@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Article from '../components/article'
 
 const IndexPage = () => (
   <div>
@@ -10,4 +11,29 @@ const IndexPage = () => (
   </div>
 )
 
-export default IndexPage
+export default () => (
+  <div>
+  <div css={{
+    display: `flex`,
+    flexFlow: `row wrap`,
+    justifyContent: `space-around`,
+    alignItems: `center`,
+    padding: `0`,
+    marginTop: `20px`,
+  }}
+  >
+    <Article /><Article /><Article />
+  </div>
+  <div css={{
+    display: `flex`,
+    flexFlow: `row wrap`,
+    justifyContent: `space-around`,
+    alignItems: `center`,
+    padding: `0`,
+    margin: `0`,
+  }}
+  >
+    <Article /><Article /><Article />
+  </div>
+  </div>
+)
