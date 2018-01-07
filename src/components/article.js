@@ -9,33 +9,17 @@ const Article = props =>
         margin: `30px`,
         padding: `2px`
     }}>
-        <Link to="https://example.com">
-            <img src="http://lorempixel.com/400/200" />
-        </Link>
+        <a href={props.link}>
+            <img src={props.linkToImage} />
+        </a>
        <p css={{
             textAlign: `center`,
             fontSize: `18px`,
         }}>
-            {data.allGoogleSheetArticlesRow.edges.node.title}
+            {props.title}
        </p>
     </div>
 
 
-export default Article ({data})
+export default Article
 
-//figure out how to use props and graphql
-
-
-export const query = graphql`
-    query googleSheets {
-        allGoogleSheetArticlesRow {
-        edges {
-            node {
-            title
-            urlToArticle
-            urlToImage
-                }
-            }
-        }
-    }
-`  

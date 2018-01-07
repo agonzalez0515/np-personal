@@ -3,7 +3,7 @@ require('env2')('.env')
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Natalia Provatas`,
   },
   plugins: [
     `gatsby-plugin-glamor`,
@@ -20,5 +20,6 @@ module.exports = {
         spaceId: process.env.SPACEID,
         accessToken: process.env.TOKEN,
       },
+    }
   ],
 }
