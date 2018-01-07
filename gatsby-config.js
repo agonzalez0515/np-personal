@@ -1,6 +1,9 @@
+require('env2')('.env')
+
+
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Natalia Provatas`,
   },
   plugins: [
     `gatsby-plugin-glamor`,
@@ -12,12 +15,11 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-google-sheets`,
+      resolve: `gatsby-source-contentful`,
       options: {
-        spreadsheetId: `1bKSiCznut3qpjim1eq5S4GWTOfWOeB3yKH3Gf4s2O80`,
-        worksheetTitle: `articles`,
-        credentials: require(`./client_secret.json`)
-      }
+        spaceId: process.env.SPACEID,
+        accessToken: process.env.TOKEN,
+      },
     }
   ],
 }
