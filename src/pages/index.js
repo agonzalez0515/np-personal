@@ -12,8 +12,7 @@ const IndexPage = ({data}) => {
       justifyContent: `space-evenly`,
       alignItems: `center`,
       padding: `0`,
-      marginTop: `20px`,
-      height: `500px`
+      marginTop: `50px`
     }}
     >
     {

@@ -4,10 +4,9 @@ import Link from "gatsby-link"
 const Article = props => 
     // <div css={{border: `1px red dashed`}}>
         <div css={{
-            width:`450px`,
-            height:`500px`,
-            margin: `30px`,
-            padding: `2px`,
+            width:`300px`,
+            height:`350px`,
+            margin: `10px`,
             flex: `0 0 1`,
             overflow: `hidden`,
             alignSelf: `center`
