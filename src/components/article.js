@@ -2,24 +2,30 @@ import React from "react"
 import Link from "gatsby-link"
 
 const Article = props => 
-    <div css={{
-        width:`400px`,
-        height:`250px`,
-        border: `2px solid black`,
-        margin: `30px`,
-        padding: `2px`
-    }}>
-        <a href={props.link}>
-            <img src={props.linkToImage} />
-        </a>
-       <p css={{
-            textAlign: `center`,
-            fontSize: `18px`,
+    // <div css={{border: `1px red dashed`}}>
+        <div css={{
+            width:`300px`,
+            height:`350px`,
+            margin: `10px`,
+            flex: `0 0 1`,
+            overflow: `hidden`,
+            alignSelf: `center`
         }}>
-            {props.title}
-       </p>
-    </div>
-
+            <a href={props.link}>
+                <img src={props.linkToImage}
+                     css={{border: `4px #B4E1FF solid`}}/>
+            </a>
+            <h3 className="article-title"
+                css={{
+                    textAlign: `center`,
+                    fontSize: `18px`,
+                    
+                }}>
+                {props.title}
+            </h3>
+        </div>
+       
+    // </div>
 
 export default Article
 

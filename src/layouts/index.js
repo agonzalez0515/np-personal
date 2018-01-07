@@ -15,7 +15,7 @@ const Header = props =>
     >
       <h1 css={{ 
         margin: 0, 
-        fontSize: `4rem`,
+        fontSize: `5rem`,
         textAlign: `center`,
         paddingTop: `2rem` 
       }}
