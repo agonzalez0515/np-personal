@@ -70,7 +70,7 @@ const Header = props =>
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Natalia Provatas writing portfolio"
+      title="Natalia Provatas"
       // meta={[
       //   { name: 'description', content: 'Sample' },
       //   { name: 'keywords', content: 'sample, something' },
