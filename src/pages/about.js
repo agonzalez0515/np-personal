@@ -7,6 +7,7 @@ const About = () => (
   <div className= "cont" css={{
     display: `flex`,
     flexFlow: `row wrap`,
+    justifyContent: `space-around`,
     marginTop: `50px`
   }} >
     <div css={{
@@ -14,11 +15,11 @@ const About = () => (
         padding: `5px`,
         width: `40%`
     }}>
-      <img src={profile} alt="picture of Natalia Provatas" />
+      <img src={profile} alt="picture of Natalia Provatas" css={{maxWidth: `100%`}} />
     </div>
 
     <div css={{
-      flex:`none`
+      flexShrink:`1`
     }}>
       <h2 className="author"> About the</h2>
       <h2 className="author"> Author </h2>
