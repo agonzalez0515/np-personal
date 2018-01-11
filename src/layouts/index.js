@@ -70,7 +70,7 @@ const Header = props =>
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Natalia Provatas writing portfolio"
+      title="Natalia Provatas"
       // meta={[
       //   { name: 'description', content: 'Sample' },
       //   { name: 'keywords', content: 'sample, something' },
@@ -89,6 +89,7 @@ const TemplateWrapper = ({ children }) => (
         margin: `auto`,
         display: `inline-block`
       }} >
+        <NavList to="/">home</NavList>
         <NavList to="/about">about</NavList>
         <NavList to="/other-work">other work</NavList>
         <NavList to="contact">contact</NavList>
