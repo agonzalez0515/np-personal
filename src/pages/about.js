@@ -19,7 +19,6 @@ const About = () => (
 
     <div css={{
       flex:`none`
-        // width: `70%`
     }}>
       <h2 className="author"> About the</h2>
       <h2 className="author"> Author </h2>
