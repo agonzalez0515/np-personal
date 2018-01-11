@@ -1,9 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import profile from '../assets/profile.jpg'
-import '../style.scss'
 
 const About = () => (
+
   <div className= "cont" css={{
     display: `flex`,
     flexFlow: `row wrap`,
@@ -28,7 +27,6 @@ const About = () => (
         Nunc nec porta odio, eu ultrices libero. Donec neque nunc, fermentum sit amet luctus eu, pellentesque quis orci. Fusce quis ligula eget purus condimentum consectetur. Morbi id nisi ac arcu pretium pellentesque ac eu felis. Integer sit amet sapien ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eu posuere tortor. Aliquam vitae diam eu massa tristique finibus ut eu lorem. Aliquam erat volutpat. Quisque finibus a dui sit amet tristique. Aliquam et erat ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc elementum tristique augue quis facilisis. Maecenas laoreet interdum interdum. Cras at porta nunc. 
       </p>
     </div>
-  
   </div>
 )
 

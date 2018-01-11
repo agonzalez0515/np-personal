@@ -15,7 +15,7 @@ const Header = props =>
     >
       <h1 css={{ 
         margin: 0, 
-        fontSize: `5rem`,
+        fontSize: `4rem`,
         textAlign: `center`,
         paddingTop: `2rem` 
       }}
@@ -57,7 +57,7 @@ const Header = props =>
             color: `white`,
             fontWeight: `bold`,
             fontStyle: `italic`,
-            fontSize: `1.40rem`,
+            fontSize: `1.25rem`,
             letterSpacing: `2px`
           }}
           to={props.to}>
@@ -70,7 +70,7 @@ const Header = props =>
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Natalia Provatas"
+      title="Natalia Provatas writing portfolio"
       // meta={[
       //   { name: 'description', content: 'Sample' },
       //   { name: 'keywords', content: 'sample, something' },
@@ -98,7 +98,7 @@ const TemplateWrapper = ({ children }) => (
     <div
       css={{
         margin: '0 auto',
-        width: `auto`,
+        maxWidth: 960,
         padding: '0px 1.0875rem 1.45rem',
         paddingTop: 0,
       }}
