@@ -89,6 +89,7 @@ const TemplateWrapper = ({ children }) => (
         margin: `auto`,
         display: `inline-block`
       }} >
+        <NavList to="/">home</NavList>
         <NavList to="/about">about</NavList>
         <NavList to="/other-work">other work</NavList>
         <NavList to="contact">contact</NavList>
