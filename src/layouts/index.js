@@ -3,47 +3,9 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
+import Header from '../components/header'
+import Footer from '../components/footer'
 
-
-const Header = props => 
-    <div
-      css={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 css={{ 
-        margin: 0, 
-        fontSize: `5rem`,
-        textAlign: `center`,
-        paddingTop: `2rem` 
-      }}
-      >
-        <Link
-          to="/"
-          css={{
-            color: `black`,
-            ':hover': {
-              textDecoration: `none`,
-            },
-            '@media (max-width:400px)': {
-            fontSize: `2rem`,
-            }
-          }}
-        >
-          NATALIA PROVATAS
-        </Link>
-      </h1>
-      <p css={{
-        fontSize: `1.2rem`,
-        textAlign: `center`,
-        letterSpacing: `2px`,
-        paddingTop: `10px` 
-      }}>
-          WRITER | EDITOR | WRITER
-      </p>
-    </div>
 
     const NavList= props =>
       <li 
@@ -105,6 +67,7 @@ const TemplateWrapper = ({ children }) => (
     >
       {children()}
     </div>
+    <Footer />
   </div>
 )
 
