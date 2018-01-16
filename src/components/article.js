@@ -5,27 +5,27 @@ import '../style.scss'
 const Article = props => 
     // <div css={{border: `1px red dashed`}}>
         <div css={{
-            // width:`30%`,
-            height:`370px`,
             margin: `5px`,
             paddingTop: `5px`,
-            flex: `0 0 30%`,
-            overflow: `hidden`,
-            alignSelf: `center`
+            flex: `0 0 calc(33.33% - 20px)`,
+            overflow: `auto`
         }}>
-            <a className="hoverEffect" href={props.link}>
-                <img src={props.linkToImage} 
-                     css={{border: `4px babyblue solid`}} />
-                     <h3 className="article-title"
+            <a className="hoverEffect" href={props.link} 
+                css={{
+                    margin: `auto`
+                }} >
+                <img src={props.linkToImage} />     
+            </a>
+            <h3 className="article-title"
                     css={{
                         textAlign: `center`,
                         fontWeight: `200`,
                         fontSize: `1.2em`, 
-                        marginTop: `5px`                   
+                        marginTop: `5px`,
+                        width: `90%`                   
                     }}>
                     {props.title}
-                </h3>
-            </a>
+            </h3>
         </div>
        
     // </div>
