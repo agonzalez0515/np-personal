@@ -39,41 +39,4 @@
   }
 
   
-  .hoverEffect {
-    margin:15px 0;
-    color:#e4572e;
-    text-decoration:none;
-    text-transform:uppercase;
-    letter-spacing:0.25rem;
-    
-    position:relative;
-    display:inline-block;
-    padding:20px 0;
-    
-    transition:all 0.4s ease-in-out;
-  }
-  
-  .hoverEffect:after, .hoverEffect:before {
-    content:"";
-    height:4px;
-    background-color:#FFE476;
-    background-color:transparent;
-    position:absolute;
-    display:block;
-    width:10%;
-  
-    transition:all 0.4s ease-in-out;
-  }
-  .hoverEffect:before {
-    top:0;
-    right:0;
-  }
-  .hoverEffect:after {
-    bottom:0;
-    left:0;
-  }
-  .hoverEffect:hover:after , 
-  .hoverEffect:hover:before {
-    background-color:#FFE476;
-    width:100%;
-  }  
+ 

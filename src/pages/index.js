@@ -10,7 +10,8 @@ const IndexPage = ({data}) => {
     <div css={{
       display: `flex`,
       flexFlow: `row wrap`,
-      justifyContent: `space-evenly`,
+      justifyContent: `center`,
+      alignContent: `center`,
       alignItems: `center`,
       padding: `0`,
       marginTop: `50px`
