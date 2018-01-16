@@ -31,13 +31,9 @@ import Footer from '../components/footer'
 //the div below the header is the container for the body
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet
-      title="Natalia Provatas"
-      // meta={[
-      //   { name: 'description', content: 'Sample' },
-      //   { name: 'keywords', content: 'sample, something' },
-      // ]}
-    />
+    <Helmet>
+      <title>Natalia Provatas</title>
+    </Helmet>
     <Header />
     <nav css={{
       width: `100%`,
