@@ -16,18 +16,23 @@ const Footer = props =>
             textAlign: `right`,
             backgroundColor: `#e47857`,
             flex: `1 100%`,
-            height: `12vh`
+            height: `10vh`
 
         }}>
-            <ul css={{display: `inline-block`, listStyle: `none`, textAlign: `center`, margin: `0 auto`}} >
-               <li css={{display: `inline-block`, paddingLeft: `15px`}}>
-                <FontAwesomeIcon icon={faTwitter} size="3x" />
+            <ul css={{
+                display: `inline-block`, 
+                listStyle: `none`, 
+                margin: `auto`,
+                width: `80%`
+            }} >
+                <li css={{display: `inline-block`, padding: `2rem`}}>
+                    <a href="https://twitter.com/nataliaprovatas"><FontAwesomeIcon icon={faTwitter} size="2x" /></a>
                 </li>
-               <li css={{display: `inline-block`, textAlign: `center`, paddingRight: `15px`}}>
-                <FontAwesomeIcon icon={faInstagram} size="3x" />
+                <li css={{display: `inline-block`, padding: `2rem`}}>
+                    <a href="https://www.instagram.com/chola4hire/"><FontAwesomeIcon icon={faInstagram} size="2x" /></a>
                 </li>
-               <li css={{display: `inline-block`, paddingRight:`15px`, textAlign: `center`}}>
-                <FontAwesomeIcon icon={faEnvelope} size="3x" />
+                <li css={{display: `inline-block`, padding: `2rem`}}>
+                    <a href="mailto:someone@example.com" target="_top"><FontAwesomeIcon icon={faEnvelope} size="2x" /></a>
                 </li>
             </ul>
         </div>
