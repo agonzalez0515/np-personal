@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Article from '../components/article'
 
+
 const IndexPage = ({data}) => {
   const allArticles = data.allContentfulArticle.edges
   
