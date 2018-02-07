@@ -22,8 +22,9 @@ const Header = props =>
             ':hover': {
               textDecoration: `none`,
             },
-            '@media (max-width:400px)': {
-            fontSize: `2rem`,
+            '@media (max-width: 415px)': {
+            fontSize: `3.8rem`,
+            paddingTop: `10px` 
             }
           }}
         >
