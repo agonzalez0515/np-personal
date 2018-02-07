@@ -29,7 +29,7 @@ export default IndexPage
 
 export const contentQuery = graphql`
   query Content {
-    allContentfulArticle {
+    allContentfulArticle(sort: {fields: [datePublished], order: DESC} ) {
       edges {
         node {
           title
