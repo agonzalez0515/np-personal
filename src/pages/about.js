@@ -12,20 +12,16 @@ const About = () => (
     marginTop: `50px`
   }} >
     <div css={{
-        flexShrink:`0`,
-        padding: `5px`,
-        width: `30%`
-    }}>
-      <img src={profile} alt="picture of Natalia Provatas" css={{maxWidth: `100%`}} />
-    </div>
-
-    <div css={{
-      flexShrink:`0`
+      flexShrink:`0`,
+      '@media (max-width: 415px)': {
+        order: `2`
+      }
     }}>
       <h2 className="author"> About </h2>
       <h2 className="author"> Me </h2>
       <div className="bio" css={{
-        overflow: `auto`, 
+        overflow: `auto`,
+        fontSize: `1.2rem`, 
         width: `620px`, 
         margin: `20px`, 
         padding: `5px`,
@@ -40,6 +36,16 @@ const About = () => (
         <p>She currently resides in Silverlake with her fluffy dog, Norman. Both dance for treats.</p>
       </div>
     </div>
+    <div css={{
+      flexShrink:`0`,
+      padding: `5px`,
+      width: `30%`,
+      '@media (max-width: 415px)': {
+        order: `1`
+      }
+  }}>
+    <img src={profile} alt="picture of Natalia Provatas" css={{maxWidth: `100%`}} />
+  </div>
   
   </div>
 )
