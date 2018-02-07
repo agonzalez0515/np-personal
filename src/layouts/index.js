@@ -49,7 +49,6 @@ const TemplateWrapper = ({ children }) => (
       }} >
         <NavList to="/">home</NavList>
         <NavList to="/about">about</NavList>
-        <NavList to="/other-work">other work</NavList>
         <NavList to="contact">contact</NavList>
       </ul>
     </nav>
