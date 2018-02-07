@@ -14,7 +14,7 @@ const Footer = props =>
     }}>
         <div css={{
             textAlign: `right`,
-            backgroundColor: `#e47857`,
+            backgroundColor: `#B4E1FF`,
             flex: `1 100%`,
             height: `10vh`
 
@@ -25,13 +25,13 @@ const Footer = props =>
                 margin: `auto`,
                 width: `80%`
             }} >
-                <li css={{display: `inline-block`, padding: `2rem`}}>
+                <li css={{display: `inline-block`, padding: `1.6rem`}}>
                     <a href="https://twitter.com/nataliaprovatas"><FontAwesomeIcon icon={faTwitter} size="2x" /></a>
                 </li>
-                <li css={{display: `inline-block`, padding: `2rem`}}>
+                <li css={{display: `inline-block`, padding: `1.6rem`}}>
                     <a href="https://www.instagram.com/chola4hire/"><FontAwesomeIcon icon={faInstagram} size="2x" /></a>
                 </li>
-                <li css={{display: `inline-block`, padding: `2rem`}}>
+                <li css={{display: `inline-block`, padding: `1.6rem`}}>
                     <a href="mailto:someone@example.com" target="_top"><FontAwesomeIcon icon={faEnvelope} size="2x" /></a>
                 </li>
             </ul>
