@@ -8,7 +8,10 @@ const Article = props =>
             margin: `5px`,
             paddingTop: `5px`,
             flex: `0 0 calc(33.33% - 20px)`,
-            overflow: `auto`
+            overflow: `auto`,
+            '@media (max-width:415px)': {
+                flex: `0 1 auto`,
+                }
         }}>
             <a className="hoverEffect" href={props.link} 
                 css={{
