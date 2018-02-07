@@ -5,6 +5,10 @@
 // #C1FF9B mint green
 // #16DB93 caribbean
 
+a {
+  color: rgb(55, 168, 244) 
+}
+
 @mixin boxShadow($colour, $length){
     $value: ();
     @for $i from 1 through $length{
