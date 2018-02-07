@@ -22,12 +22,23 @@ const About = () => (
     <div css={{
       flexShrink:`0`
     }}>
-      <h2 className="author"> About the</h2>
-      <h2 className="author"> Author </h2>
-      <p className="bio" css={{overflow: `auto`, width: `600px`, margin: `20px`, padding: `5px`}}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a sapien molestie, dictum leo ac, bibendum ante. Morbi gravida dui libero, id consequat justo varius quis. Donec non vestibulum risus. Maecenas eu arcu urna. Nunc fringilla ac lectus in luctus. Phasellus hendrerit nisi velit. Cras aliquet ullamcorper fermentum. Nulla id dignissim lectus. Ut dapibus molestie consequat. <br />Donec pharetra dignissim velit, at accumsan leo rutrum quis. Donec et dignissim risus, vel tincidunt nunc. Sed est ipsum, dictum a odio a, commodo malesuada est. Etiam tempor fringilla mauris, non vehicula eros. Pellentesque auctor nunc in tincidunt elementum. In ut felis nec nulla sagittis vulputate ac nec leo.
-        <p>Nunc nec porta odio, eu ultrices libero. Donec neque nunc, fermentum sit amet luctus eu, pellentesque quis orci. Fusce quis ligula eget purus condimentum consectetur. Morbi id nisi ac arcu pretium pellentesque ac eu felis. Integer sit amet sapien ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eu posuere tortor. Aliquam vitae diam eu massa tristique finibus ut eu lorem. Aliquam erat volutpat. Quisque finibus a dui sit amet tristique. Aliquam et erat ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc elementum tristique augue quis facilisis. Maecenas laoreet interdum interdum. Cras at porta nunc. </p>
-      </p>
+      <h2 className="author"> About </h2>
+      <h2 className="author"> Me </h2>
+      <div className="bio" css={{
+        overflow: `auto`, 
+        width: `620px`, 
+        margin: `20px`, 
+        padding: `5px`,
+        '@media (max-width: 415px)': {
+          width: `450px`
+          }
+      }}>
+        <p>Writer and filmmaker, Natalia Provatas, is a first generation Los Angeles native of Puerto Rican and Greek descent. </p>
+        <p>Last year, her personal essay <a href="http://www.refinery29.com/2017/02/139706/bulletproof-biohacking-conference-2016">"What It’s Really Like Inside the Elite Conference for Health Bros”</a> for Refinery 29 was voted one of Apple News’ “Weekly Must Reads.” Additional published work can be found on <a href="https://www.damemagazine.com/2014/09/22/my-vagina-and-me-love-story/">Dame Magazine</a>, <a href="https://www.wework.com/creator/personal-profiles/on-being-a-tomboy/?utm_source=wework&utm_medium=referral&utm_campaign=creator">Creator Magazine</a>, <a href="http://www.thegloss.com/author/natalia-provatas/">The Gloss</a>, and <a href="http://manifestjustice.org/blog/post/2">Manifest Justice</a>.  She was also project manager for <a href="http://ontheinsideart.com/">On the Inside</a>, the largest art collection of currently incarcerated LGBTQ prisoners that opened at Abron's Art Center in NYC last fall, and will be coming to The Craft and Folk Art Museum in Los Angeles summer of 2019.</p>
+        <p>Natalia co-directed/co-wrote the dark comedy short film Canary Suicides, which won the "Audience Award" at Holly Shorts, and was an official selection at both SXSW and Cleveland International Film Festival. She also directed and co-wrote the comedy web series Lazy Actress. Previously, Natalia was a production and editorial coordinator for the DreamWorks Animation features, The Croods, Me and My Shadow and Monkeys of Mumbai, respectively. She also worked on the writing team of BOO: Earth Division for DreamWorks Animation Television.</p>
+        <p>Growing up, Natalia was drawn to writing as a way to share her struggles about trying to fit into the world at large as a mixed-race American. She also writes about sex, the body, female identity, and surviving breast cancer from a multi-culture lens.</p>  
+        <p>She currently resides in Silverlake with her fluffy dog, Norman. Both dance for treats.</p>
+      </div>
     </div>
   
   </div>
