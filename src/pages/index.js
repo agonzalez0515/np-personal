@@ -11,9 +11,6 @@ const IndexPage = ({data}) => {
       display: `flex`,
       flexFlow: `row wrap`,
       justifyContent: `center`,
-      alignContent: `center`,
-      alignItems: `center`,
-      padding: `0`,
       marginTop: `50px`
     }}
     >
