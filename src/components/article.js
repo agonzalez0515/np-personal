@@ -3,9 +3,8 @@ import Link from "gatsby-link"
 import '../style.scss'
 
 const Article = props => 
-    // <div css={{border: `1px red dashed`}}>
         <div css={{
-            margin: `5px`,
+            margin: `10px`,
             paddingTop: `5px`,
             flex: `0 0 calc(33.33% - 20px)`,
             overflow: `auto`,
@@ -13,25 +12,32 @@ const Article = props =>
                 flex: `0 1 auto`,
                 }
         }}>
-            <a className="hoverEffect" href={props.link} 
-                css={{
-                    margin: `auto`
-                }} >
-                <img src={props.linkToImage} />     
-            </a>
-            <h3 className="article-title"
-                    css={{
-                        textAlign: `center`,
-                        fontWeight: `200`,
-                        fontSize: `1.2em`, 
-                        marginTop: `5px`,
-                        width: `90%`                   
-                    }}>
-                    {props.title}
-            </h3>
+            <div className="hoverEffect">
+                <img src={props.linkToImage} 
+                     css={{
+                        width: `100%`,
+                        marginLeft: `auto`,
+                        marginRight: `auto`
+                    }} />     
+            </div>
+            <div css={{margin:`auto`}}>
+                <a href={props.link}> 
+                    <h3 className="article-title"
+                        css={{
+                            textAlign: `center`,
+                            fontWeight: `200`,
+                            fontSize: `1.55em`,
+                            // marginTop: `5px`,
+                            width: `95%`,
+                            marginLeft: `auto`,
+                            marginRight: `auto`                   
+                        }}>
+                        {props.title}
+                    </h3>
+                </a>
+            </div>
         </div>
        
-    // </div>
 
 export default Article
 
