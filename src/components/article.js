@@ -13,12 +13,14 @@ const Article = props =>
                 }
         }}>
             <div className="hoverEffect">
-                <img src={props.linkToImage} 
-                     css={{
-                        width: `100%`,
-                        marginLeft: `auto`,
-                        marginRight: `auto`
-                    }} />     
+                <a href={props.link}> 
+                    <img src={props.linkToImage} 
+                        css={{
+                            width: `100%`,
+                            marginLeft: `auto`,
+                            marginRight: `auto`
+                        }} />     
+                </a>
             </div>
             <div css={{margin:`auto`}}>
                 <a href={props.link}> 

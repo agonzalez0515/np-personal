@@ -5,8 +5,12 @@
 // #C1FF9B mint green
 // #16DB93 caribbean
 
-a {
-  color: rgb(55, 168, 244) 
+a:hover {
+  text-decoration: none;
+}
+
+.article-title {
+  color: black;
 }
 
 @mixin boxShadow($colour, $length){
