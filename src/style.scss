@@ -23,6 +23,10 @@ a:hover {
   }
 }
 
+.footer-icons a:hover {
+  color: red;
+}
+
 @mixin boxShadow($colour, $length){
     $value: ();
     @for $i from 1 through $length{
