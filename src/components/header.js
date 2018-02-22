@@ -37,7 +37,7 @@ const Header = props =>
         letterSpacing: `2px`,
         paddingTop: `10px` 
       }}>
-          WRITER | EDITOR | WRITER
+          WRITER | FILMMAKER
       </p>
     </div>
 
