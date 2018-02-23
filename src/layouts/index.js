@@ -19,7 +19,7 @@ import Footer from '../components/footer'
             color: `white`,
             fontWeight: `bold`,
             fontStyle: `italic`,
-            fontSize: `1.40rem`,
+            fontSize: `1.55rem`,
             letterSpacing: `2px`
           }}
           to={props.to}>

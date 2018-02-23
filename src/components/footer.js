@@ -28,8 +28,8 @@ const Footer = props =>
                 <li className="footer-icons">
                     <a href="https://www.instagram.com/chola4hire/"><FontAwesomeIcon icon={faInstagram} size="2x" /></a>
                 </li>
-                <li className="footer-icons">
-                    <a href="mailto:someone@example.com" target="_top"><FontAwesomeIcon icon={faEnvelope} size="2x" /></a>
+                <li css={{display: `inline-block`, padding: `1.6rem`}}>
+                    <a href="mailto:nataliaprovatas@gmail.com" target="_top"><FontAwesomeIcon icon={faEnvelope} size="2x" /></a>
                 </li>
             </ul>
         </div>
