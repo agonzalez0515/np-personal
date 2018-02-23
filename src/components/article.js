@@ -22,21 +22,19 @@ const Article = props =>
                         }} />     
                 </a>
             </div>
-            <div css={{margin:`auto`}}>
-                <a href={props.link}> 
-                    <h3 className="article-title"
-                        css={{
-                            textAlign: `center`,
-                            fontWeight: `200`,
-                            fontSize: `1.55em`,
-                            // marginTop: `5px`,
-                            width: `95%`,
-                            marginLeft: `auto`,
-                            marginRight: `auto`                   
-                        }}>
-                        {props.title}
-                    </h3>
-                </a>
+            <div className="hover-link" css={{margin:`auto`}}> 
+                <h3 className="article-title"
+                    css={{
+                        textAlign: `center`,
+                        fontWeight: `200`,
+                        fontSize: `1.35em`,
+                        marginTop: `5px`,
+                        width: `95%`,
+                        marginLeft: `auto`,
+                        marginRight: `auto`                   
+                    }}>
+                    <a href={props.link}> {props.title} </a>
+                </h3>
             </div>
         </div>
        
