@@ -14,13 +14,13 @@ a:hover {
 }
 
 .footer-icons {
-  padding-top: 1.75%; 
-  display: table-cell;
-  text-align: center;
+  display: inline-block;
+  float: right;
+  padding-left: 7px;
+}
 
-  @media (max-width:415px) {
-    padding-top: 6%;
-  }
+.footer-icons a {
+  color: black;
 }
 
 .footer-icons a:hover {
