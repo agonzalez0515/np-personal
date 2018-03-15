@@ -4,7 +4,6 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
 import Header from '../components/header'
-import Footer from '../components/footer'
 
 
     const NavList= props =>
@@ -19,7 +18,7 @@ import Footer from '../components/footer'
             color: `white`,
             fontWeight: `bold`,
             fontStyle: `italic`,
-            fontSize: `1.55rem`,
+            fontSize: `1.5em`,
             letterSpacing: `2px`
           }}
           to={props.to}>
@@ -49,7 +48,6 @@ const TemplateWrapper = ({ children }) => (
       }} >
         <NavList to="/">home</NavList>
         <NavList to="/about">about</NavList>
-        <NavList to="contact">contact</NavList>
       </ul>
     </nav>
     <div
@@ -62,7 +60,6 @@ const TemplateWrapper = ({ children }) => (
     >
       {children()}
     </div>
-    <Footer />
   </div>
 )
 
