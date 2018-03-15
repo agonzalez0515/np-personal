@@ -19,7 +19,7 @@ import Footer from '../components/footer'
             color: `white`,
             fontWeight: `bold`,
             fontStyle: `italic`,
-            fontSize: `1.55rem`,
+            fontSize: `2em`,
             letterSpacing: `2px`
           }}
           to={props.to}>
@@ -49,7 +49,6 @@ const TemplateWrapper = ({ children }) => (
       }} >
         <NavList to="/">home</NavList>
         <NavList to="/about">about</NavList>
-        <NavList to="contact">contact</NavList>
       </ul>
     </nav>
     <div

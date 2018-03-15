@@ -9,16 +9,17 @@ const Header = props =>
       <ul css={{
         overflow: `hidden`,
        margin: 0,
-       padding: 0,
+       paddingRight: `2%`,
+       fontSize: `1.2em`
       }}>
         <li className="footer-icons">
-            <a href="https://twitter.com/nataliaprovatas"><FontAwesomeIcon icon={faTwitter} size="2x" /></a>
+            <a href="https://twitter.com/nataliaprovatas">twitter</a>
         </li>
         <li className="footer-icons">
-            <a href="https://www.instagram.com/chola4hire/"><FontAwesomeIcon icon={faInstagram} size="2x" /></a>
+            <a href="https://www.instagram.com/chola4hire/">instagram</a> //
         </li>
         <li className="footer-icons">
-            <a href="mailto:nataliaprovatas@gmail.com" target="_top"><FontAwesomeIcon icon={faEnvelope} size="2x" /></a>
+            <a href="mailto:nataliaprovatas@gmail.com" target="_top">email</a> //
         </li>
       </ul>
     </div>
