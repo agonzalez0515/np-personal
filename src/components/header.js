@@ -1,7 +1,5 @@
 import Link from 'gatsby-link'
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import {faTwitter, faInstagram} from '@fortawesome/fontawesome-free-brands'
-import {faEnvelope} from '@fortawesome/fontawesome-free-solid'
+
 
 const Header = props =>
     <div>
@@ -12,13 +10,13 @@ const Header = props =>
        paddingRight: `2%`,
        fontSize: `1.2em`
       }}>
-        <li className="footer-icons">
+        <li className="media-icons">
             <a href="https://twitter.com/nataliaprovatas">twitter</a>
         </li>
-        <li className="footer-icons">
+        <li className="media-icons">
             <a href="https://www.instagram.com/chola4hire/">instagram</a> //
         </li>
-        <li className="footer-icons">
+        <li className="media-icons">
             <a href="mailto:nataliaprovatas@gmail.com" target="_top">email</a> //
         </li>
       </ul>
