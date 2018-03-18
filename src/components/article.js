@@ -18,7 +18,8 @@ const Article = props =>
                         css={{
                             width: `100%`,
                             marginLeft: `auto`,
-                            marginRight: `auto`
+                            marginRight: `auto`,
+                            boxShadow: `0 10px 30px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)`
                         }} />     
                 </a>
             </div>
