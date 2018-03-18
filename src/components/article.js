@@ -18,22 +18,23 @@ const Article = props =>
                         css={{
                             width: `100%`,
                             marginLeft: `auto`,
-                            marginRight: `auto`
+                            marginRight: `auto`,
+                            boxShadow: `0 10px 30px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)`
                         }} />     
                 </a>
             </div>
-            <div className="hover-link" css={{margin:`auto`}}> 
+            <div css={{margin:`auto`}}> 
                 <h3 className="article-title"
                     css={{
                         textAlign: `center`,
                         fontWeight: `200`,
                         fontSize: `1.35em`,
                         marginTop: `5px`,
-                        width: `95%`,
+                        width: `75%`,
                         marginLeft: `auto`,
                         marginRight: `auto`                   
                     }}>
-                    <a href={props.link}> {props.title} </a>
+                    <a css={{color: `black`}} href={props.link}> {props.title} </a>
                 </h3>
             </div>
         </div>

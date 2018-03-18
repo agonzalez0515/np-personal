@@ -9,78 +9,26 @@ a:hover {
   text-decoration: none;
 }
 
-.article-title a {
-  color: black;
-}
 
-.footer-icons {
-  display: inline-block;
+.media-icons {
+  list-style-type: none;
   float: right;
   padding-left: 7px;
 }
 
-.footer-icons a {
+.media-icons a {
   color: black;
 }
 
-.footer-icons a:hover {
+a:hover {
   color: #E4572E;
 }
 
 
-// a:hover {
-//   color: hotPink;
-// }
-// @media (-webkit-min-device-pixel-ratio:0) {
-//   a {
-//     background-color: skyBlue;
-//     background-image: -webkit-linear-gradient(left, hotPink 0%, orange 50%, transparent 50%);
-//     background-position: 100% 0;
-//     background-size: 200% 200%;
-//     color: transparent;
-//     -webkit-transition: .1s .2s;
-//     -webkit-background-clip: text;
-//   }
-//   a:hover {
-//     background-position: 0 0;
-//     color: transparent;
-//     transition: .4s 0;
-//   }
-// }
 
 
-@mixin boxShadow($colour, $length){
-    $value: ();
-    @for $i from 1 through $length{
-      $px: $i + px;
-      $shadow: $px $px $colour;
-      $value: append($value, $shadow, comma)
-  
-    }
-    text-shadow: $value;
-  }
-  
-  
-  .author{
-    font-family: 'Arial', sans-serif;
-    font-size: 80px;
-    font-weight: 900;
-    color: #16DB93;
-    @include boxShadow(rgb(160, 237, 209), 1000);
-    border: none;
-    text-align: center;
-    line-height: .8;
-  }
-  
-  .author:nth-child(2){
-    color: #E4572E;
-    @include boxShadow(rgb(233, 166, 145) , 1000);
-  }
-  
-  .author:last-child{
-    color: #1b5bea;
-    @include boxShadow(#fd82e6, 1000)
-  }
+
+
 
   
  
