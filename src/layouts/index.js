@@ -2,17 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
-
 import Header from '../components/header'
+import '../style.scss'
 
 
     const NavList= props =>
-      <li 
-      css={{ 
-        display: `inline-block`,
-        padding: `2rem`,
-
-      }}>
+      <li className="nav-item">
         <Link 
           css={{
             color: `white`,
@@ -34,20 +29,11 @@ const TemplateWrapper = ({ children }) => (
       <title>Natalia Provatas</title>
     </Helmet>
     <Header />
-    <nav css={{
-      width: `100%`,
-      height: `6rem`,
-      background: `#16DB93`,
-      textAlign: `center`
-    }}>
-      <ul css={{
-        listStyle: `none`,
-        width: `80%`,
-        margin: `auto`,
-        display: `inline-block`
-      }} >
+    <nav>
+      <ul role="navigation" className="nav">
         <NavList to="/">home</NavList>
         <NavList to="/about">about</NavList>
+        <NavList to="/about">more</NavList>
       </ul>
     </nav>
     <div

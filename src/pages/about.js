@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import profile from '../assets/profile.jpg'
 import '../style.scss'
 

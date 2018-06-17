@@ -43,8 +43,12 @@ const Header = props =>
               textDecoration: `none`,
             },
             '@media (max-width: 415px)': {
-            fontSize: `3.8rem`,
-            paddingTop: `10px` 
+              fontSize: `3.8rem`,
+              paddingTop: `10px` 
+            },
+            '@media (max-width: 815px)': {
+              fontSize: `3rem`,
+              paddingTop: `10px` 
             }
           }}
         >
@@ -52,10 +56,10 @@ const Header = props =>
         </Link>
       </h1>
       <p css={{
-        fontSize: `1.2rem`,
+        fontSize: `1.1rem`,
         textAlign: `center`,
-        letterSpacing: `2px`,
-        paddingTop: `10px` 
+        letterSpacing: `3px`,
+        paddingTop: `3%` 
       }}>
           WRITER | FILMMAKER
       </p>
