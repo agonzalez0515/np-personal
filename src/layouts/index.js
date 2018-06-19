@@ -34,7 +34,7 @@ const TemplateWrapper = ({ children }) => (
       <ul role="navigation" className="nav">
         <NavList to="/">home</NavList>
         <NavList to="/about">about</NavList>
-        <NavList to="/about">more</NavList>
+        <NavList to="/more">more</NavList>
       </ul>
     </nav>
     <div

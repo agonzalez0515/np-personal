@@ -30,6 +30,10 @@ a:hover {
   color: black;
 }
 
+.media-icons a:hover {
+  color: #E4572E;
+}
+
 
 .media-icons:before {
   padding: 8px;
@@ -65,7 +69,6 @@ a:hover {
   @media (max-width: 740px){
     font-size: .70rem;
   }
-
 }
 
 .article-container {
@@ -86,6 +89,21 @@ a:hover {
   }
 }
 
+figure {
+  position: relative;
+}
+
+figcaption {
+  background-color: white;
+  color: black;
+  position: absolute;
+  display: block;
+  float: left;
+  bottom: -2px;
+  font-style: italic;
+  padding: 2px;
+
+}
 
 .bg-spring {
   background: linear-gradient(70deg, #fff  60%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #63e89e 60%, #E4572E  60%);

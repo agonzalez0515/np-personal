@@ -5,12 +5,15 @@ const Article = props =>
   <div className="article-item">
     <div className="hoverEffect">
       <a href={props.link}> 
-        <img src={props.linkToImage} 
-            css={{
-                width: `100%`,
-                margin: `0`,
-                boxShadow: `0 10px 30px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)`
-            }} />     
+        <figure>
+          <img src={props.linkToImage} 
+              css={{
+                  width: `100%`,
+                  margin: `0`,
+                  boxShadow: `0 10px 30px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)`
+              }} />
+              <figcaption> {props.caption} </figcaption>     
+        </figure>
       </a>
     </div>
     <div css={{margin:`auto`}}> 

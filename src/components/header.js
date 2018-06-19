@@ -8,7 +8,7 @@ const Header = props =>
         overflow: `hidden`,
        margin: 0,
        paddingRight: `2%`,
-       fontSize: `1.2em`
+       fontSize: `1.1em`
       }}>
         <li className="media-icons">
             <a href="https://twitter.com/nataliaprovatas">twitter</a>

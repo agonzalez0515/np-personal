@@ -10,7 +10,7 @@ const IndexPage = ({data}) => {
     <main className="article-container">
     {
       allArticles.map(({node:article}) =>
-      <Article title={article.title} link={article.link} linkToImage={ article.image == null ? article.linkToImage : article.image.file.url} /> 
+      <Article caption={article.caption} title={article.title} link={article.link} linkToImage={ article.image == null ? article.linkToImage : article.image.file.url} /> 
     )}
     </main> 
   )
@@ -25,6 +25,7 @@ export const contentQuery = graphql`
         node {
           title
           link
+          caption
           image {
             file {
               url
