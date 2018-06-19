@@ -14,10 +14,10 @@ const Header = props =>
             <a href="https://twitter.com/nataliaprovatas">twitter</a>
         </li>
         <li className="media-icons">
-            <a href="https://www.instagram.com/chola4hire/">instagram</a> //
+            <a href="https://www.instagram.com/chola4hire/">instagram</a>
         </li>
         <li className="media-icons">
-            <a href="mailto:nataliaprovatas@gmail.com" target="_top">email</a> //
+            <a href="mailto:nataliaprovatas@gmail.com" target="_top">email</a>
         </li>
       </ul>
     </div>

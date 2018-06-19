@@ -26,6 +26,7 @@ import '../style.scss'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <title>Natalia Provatas</title>
     </Helmet>
     <Header />
