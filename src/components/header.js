@@ -8,16 +8,16 @@ const Header = props =>
         overflow: `hidden`,
        margin: 0,
        paddingRight: `2%`,
-       fontSize: `1.2em`
+       fontSize: `1.1em`
       }}>
         <li className="media-icons">
             <a href="https://twitter.com/nataliaprovatas">twitter</a>
         </li>
         <li className="media-icons">
-            <a href="https://www.instagram.com/chola4hire/">instagram</a> //
+            <a href="https://www.instagram.com/chola4hire/">instagram</a>
         </li>
         <li className="media-icons">
-            <a href="mailto:nataliaprovatas@gmail.com" target="_top">email</a> //
+            <a href="mailto:nataliaprovatas@gmail.com" target="_top">email</a>
         </li>
       </ul>
     </div>
@@ -43,8 +43,12 @@ const Header = props =>
               textDecoration: `none`,
             },
             '@media (max-width: 415px)': {
-            fontSize: `3.8rem`,
-            paddingTop: `10px` 
+              fontSize: `3.8rem`,
+              paddingTop: `10px` 
+            },
+            '@media (max-width: 815px)': {
+              fontSize: `3rem`,
+              paddingTop: `10px` 
             }
           }}
         >
@@ -52,10 +56,10 @@ const Header = props =>
         </Link>
       </h1>
       <p css={{
-        fontSize: `1.2rem`,
+        fontSize: `1.1rem`,
         textAlign: `center`,
-        letterSpacing: `2px`,
-        paddingTop: `10px` 
+        letterSpacing: `3px`,
+        paddingTop: `3%` 
       }}>
           WRITER | FILMMAKER
       </p>

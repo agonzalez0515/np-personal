@@ -1,7 +1,6 @@
 import Typography from "typography"
-import githubTheme from "typography-theme-github"
+import sutroTheme from "typography-theme-sutro"
 
-githubTheme.headerFontFamily =["Arial"]
-const typography = new Typography(githubTheme)
+const typography = new Typography(sutroTheme)
 
 export default typography

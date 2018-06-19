@@ -1,10 +1,9 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import profile from '../assets/profile.jpg'
 import '../style.scss'
 
 const About = () => (
-  <div css={{display: `grid`, 
+  <div className="bg-spring" css={{display: `grid`, 
              gridTemplateColumns: `1fr 1fr`,
             paddingTop: `3%`,
             '@media (max-width:415px)': {

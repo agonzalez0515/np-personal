@@ -1,24 +1,18 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import Article from '../components/article'
+import '../style.scss'
 
 
 const IndexPage = ({data}) => {
   const allArticles = data.allContentfulArticle.edges
   
   return (
-    <div css={{
-      display: `flex`,
-      flexFlow: `row wrap`,
-      justifyContent: `center`,
-      marginTop: `50px`
-    }}
-    >
+    <main className="article-container">
     {
       allArticles.map(({node:article}) =>
-      <Article title={article.title} link={article.link} linkToImage={ article.image == null ? article.linkToImage : article.image.file.url} /> 
+      <Article caption={article.caption} title={article.title} link={article.link} linkToImage={ article.image == null ? article.linkToImage : article.image.file.url} /> 
     )}
-    </div> 
+    </main> 
   )
 }
 
@@ -31,6 +25,7 @@ export const contentQuery = graphql`
         node {
           title
           link
+          caption
           image {
             file {
               url
