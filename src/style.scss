@@ -50,7 +50,7 @@ a:hover {
   background: #16DB93;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   list-style: none;
   height: 5rem;
@@ -65,10 +65,14 @@ a:hover {
   text-align: center;
   padding-top: 7px;
   padding-bottom: 7px;
-  
+
   @media (max-width: 740px){
     font-size: .70rem;
   }
+}
+
+.nav-item a:hover {
+  color: white;
 }
 
 .article-container {

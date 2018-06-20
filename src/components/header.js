@@ -38,7 +38,7 @@ const Header = props =>
         <Link
           to="/"
           css={{
-            color: `black`,
+            color: `#E4572E`,
             ':hover': {
               textDecoration: `none`,
             },
