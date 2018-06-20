@@ -1,7 +1,7 @@
 import React from 'react'
 import '../style.scss'
 
-const More = () => (
+const OtherStuff = () => (
   <main> 
     <h2>
     If you enjoyed my writing, you might enjoy the other creative projects I've worked on, or not, no presh.
@@ -9,4 +9,4 @@ const More = () => (
   </main>
 )
 
-export default More
+export default OtherStuff
