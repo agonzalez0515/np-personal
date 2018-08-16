@@ -60,6 +60,11 @@ a:hover {
   padding: 0;
   margin: 0;
   max-width: 100%;
+
+  @media (max-width: 740px){
+    height: 3.3rem;
+  }
+
 }
 
 .nav-item {

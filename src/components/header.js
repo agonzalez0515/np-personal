@@ -39,6 +39,7 @@ const Header = props =>
           to="/"
           css={{
             color: `#ff5e62`,
+            textShadow: `2px 4px 3px rgba(0,0,0,0.3)`,
             ':hover': {
               textDecoration: `none`,
             },
@@ -56,7 +57,7 @@ const Header = props =>
         </Link>
       </h1>
       <p css={{
-        fontSize: `1.1rem`,
+        fontSize: `1.4rem`,
         textAlign: `center`,
         letterSpacing: `3px`,
         paddingTop: `3%` 
