@@ -1,7 +1,7 @@
 import React from 'react'
 import '../style.scss'
 
-const OtherStuff = () => (
+const Collabs = () => (
   <main> 
     <h2>
     If you enjoyed my writing, you might enjoy the other creative projects I've worked on, or not, no presh.
@@ -9,4 +9,4 @@ const OtherStuff = () => (
   </main>
 )
 
-export default OtherStuff
+export default Collabs
