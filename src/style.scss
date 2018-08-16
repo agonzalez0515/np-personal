@@ -12,7 +12,6 @@
 
 a:hover {
   text-decoration: none;
-  color: #E4572E;
 }
 
 
@@ -47,7 +46,11 @@ a:hover {
 
 
 .nav {
-  background: #16DB93;
+  // background: #16DB93;
+  background: #ff9966;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -65,15 +68,30 @@ a:hover {
   text-align: center;
   padding-top: 7px;
   padding-bottom: 7px;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+
+  background-image: linear-gradient(yellow, yellow);
+  background-size: 0 5px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all .2s ease-out;
+  
 
   @media (max-width: 740px){
     font-size: .70rem;
   }
 }
 
-.nav-item a:hover {
-  color: white;
+.nav-item:hover {
+  background-size: 70% 2px, auto;
 }
+
+
+
 
 .article-container {
   display: flex;
@@ -110,7 +128,15 @@ figcaption {
 }
 
 .bg-spring {
-  background: linear-gradient(70deg, #fff  60%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #63e89e 60%, #E4572E  60%);
+  // background: linear-gradient(70deg, #fff  60%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #63e89e 60%, #E4572E  60%);
+  padding: 3%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.bio {
+  padding: 1%;
 }
 
 .film-title{
