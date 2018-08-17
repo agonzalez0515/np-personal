@@ -5,6 +5,11 @@
 // #C1FF9B mint green
 // #16DB93 caribbean
 
+:root {
+  --orange: #ff5e62;
+  --coral: #ff9966;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -30,7 +35,7 @@ a:hover {
 }
 
 .media-icons a:hover {
-  color: #E4572E;
+  color: var(--orange)
 }
 
 
@@ -121,7 +126,7 @@ figure {
 }
 
 figcaption {
-  background-color: white;
+  background-color: var(--coral);
   color: black;
   position: absolute;
   display: block;
