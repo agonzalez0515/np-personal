@@ -5,7 +5,8 @@ const Article = props =>
   <div className="article-item">
     <a href={props.link}> 
       <figure css={{marginBottom: `.1rem`}}>
-        <img src={props.linkToImage} 
+        <img src={props.linkToImage}
+             alt={props.description}
             css={{
                 width: `100%`,
                 margin: `0`,
