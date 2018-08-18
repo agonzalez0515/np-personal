@@ -8,6 +8,7 @@
 :root {
   --orange: #ff5e62;
   --coral: #ff9966;
+  --mint: #16DB93;
 }
 
 * {
@@ -101,7 +102,7 @@ a:hover {
 }
 
 
-
+/*** PUBLISHED WORKS PAGE ***/
 
 .article-container {
   display: flex;
@@ -137,17 +138,7 @@ figcaption {
 
 }
 
-.bg-spring {
-  // background: linear-gradient(70deg, #fff  60%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #63e89e 60%, #E4572E  60%);
-  padding: 3%;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-
-.bio {
-  padding: 1%;
-}
+/*** FILMS PAGE ***/
 
 .video-container{
   position: relative;
@@ -174,10 +165,44 @@ figcaption {
   margin-bottom: 0;
   text-align: center;
   font-size: 2.5rem;
+
+  @media (max-width: 740px){
+    font-size: 1rem;
+  }
 }
 .film-title a {
+  color: black;
+}
+
+.film-title a:hover{
   color: var(--coral);
 }
 
-  
  
+/*** ABOUT PAGE ***/
+
+.bg-spring {
+  // background: linear-gradient(70deg, #fff  60%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #63e89e 60%, #E4572E  60%);
+  padding: 3%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.bio {
+  padding: 1%;
+  width: 50%;
+}
+
+aside {
+  width: 50%;
+}
+
+.profile-pic {
+  width: 450px;
+  max-width: 100%; 
+}
+
+.bio a {
+  color: var(--coral);
+}

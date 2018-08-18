@@ -12,7 +12,7 @@ const About = () => (
       <p>She currently resides in Silverlake with her fluffy dog, Norman. Both dance for treats.</p>
     </section>
     <aside>
-      <img src={profile} alt="picture of Natalia Provatas" />
+      <img className="profile-pic" src={profile} alt="picture of Natalia Provatas" />
     </aside>
   </div>
 )
