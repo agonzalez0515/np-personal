@@ -15,6 +15,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background:linear-gradient(310deg, #B4E1FF 43%,   white 43%);
+}
+
 
 a:hover {
   text-decoration: none;
@@ -179,9 +183,49 @@ figcaption {
 }
 
  
+
+/*** COLLABS ***/
+
+.collabs {
+  display: flex;
+  height: 600px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.collabs h2 {
+  font-size: 8rem;
+  text-decoration: underline;
+  background-image: linear-gradient(var(--coral), var(--coral));
+  background-size: 0 5px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all .2s ease-out;
+
+  @media (max-width: 740px){
+    font-size: 3.5rem;
+  }
+}
+
+
+.collabs h2:hover {
+  background-size: 100% 4px, auto;
+}
+
+.collabs p {
+  background-color: black;
+  color: white;
+  font-size: 1.3rem;
+
+  @media (max-width: 740px){
+    font-size: .70rem;
+  }
+}
 /*** ABOUT PAGE ***/
 
-.bg-spring {
+.bio-container {
   // background: linear-gradient(70deg, #fff  60%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #63e89e 60%, #E4572E  60%);
   padding: 3%;
   display: flex;
@@ -191,18 +235,24 @@ figcaption {
 
 .bio {
   padding: 1%;
-  width: 50%;
+  // width: 50%;
+  flex: 1;
 }
 
-aside {
-  width: 50%;
-}
+// aside {
+//   width: 50%;
+// }
 
 .profile-pic {
   width: 450px;
-  max-width: 100%; 
+  max-width: 100%;
+  flex: 1;
 }
 
 .bio a {
   color: var(--coral);
 }
+
+
+
+
