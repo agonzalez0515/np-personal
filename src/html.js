@@ -21,9 +21,10 @@ module.exports = class HTML extends React.Component {
       )
     }
     return (
-      <html {...this.props.htmlAttributes}>
+      <html {...this.props.htmlAttributes} lang="en" >
         <head>
           <meta charSet="utf-8" />
+          <meta name="Description" content="Natalia Provatas's portfolio listing her writing, films, and other works" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta
             name="viewport"
