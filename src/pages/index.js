@@ -10,7 +10,14 @@ const IndexPage = ({data}) => {
     <main className="article-container">
     {
       allArticles.map(({node:article}) =>
-      <Article caption={article.caption} title={article.title} link={article.link} linkToImage={ article.image == null ? article.linkToImage : article.image.file.url} /> 
+      <Article
+        key={article.id} 
+        caption={article.caption} 
+        title={article.title} 
+        link={article.link} 
+        description={article.image.description} 
+        linkToImage={ article.image == null ? article.linkToImage : article.image.file.url}
+      /> 
     )}
     </main> 
   )
@@ -23,10 +30,12 @@ export const contentQuery = graphql`
     allContentfulArticle(sort: {fields: [datePublished], order: DESC} ) {
       edges {
         node {
+          id
           title
           link
           caption
           image {
+            description
             file {
               url
             }

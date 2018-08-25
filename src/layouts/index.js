@@ -10,11 +10,7 @@ import '../style.scss'
       <li className="nav-item">
         <Link 
           css={{
-            color: `#E4572E`,
-            fontWeight: `bold`,
-            fontStyle: `italic`,
-            fontSize: `1.5em`,
-            letterSpacing: `2px`
+            
           }}
           to={props.to}>
             {props.children}
@@ -34,7 +30,7 @@ const TemplateWrapper = ({ children }) => (
       <ul role="navigation" className="nav">
         <NavList to="/">published works</NavList>
         <NavList to="/films">films</NavList>
-        <NavList to="/other-stuff">other stuff</NavList>
+        <NavList to="/collabs">collabs</NavList>
         <NavList to="/about">about</NavList>
       </ul>
     </nav>
