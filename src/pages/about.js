@@ -4,7 +4,6 @@ import medium from '../assets/medium.jpg'
 import small from '../assets/small.jpg'
 import '../style.scss'
 
-console.log(large)
 
 const About = props =>
   <div className="bio-container">
