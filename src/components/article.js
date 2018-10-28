@@ -4,7 +4,7 @@ import '../style.scss'
 const Article = props => 
   <div className="article-item">
     <a href={props.link}> 
-      <figure css={{marginBottom: `.1rem`}}>
+      <figure className="article-image">
         <img src={props.linkToImage} alt={props.description} />
             <figcaption> {props.caption} </figcaption>     
       </figure>
