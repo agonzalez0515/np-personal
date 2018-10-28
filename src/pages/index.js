@@ -8,8 +8,7 @@ const IndexPage = ({data}) => {
   
   return (
     <main className="article-container">
-    {
-      allArticles.map(({node:article}) =>
+    {allArticles.map(({node:article}) =>
       <Article
         key={article.id} 
         caption={article.caption} 
@@ -18,7 +17,8 @@ const IndexPage = ({data}) => {
         description={article.image.description} 
         linkToImage={ article.image == null ? article.linkToImage : article.image.file.url}
       /> 
-    )}
+      )
+    }
     </main> 
   )
 }

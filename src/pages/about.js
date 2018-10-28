@@ -2,7 +2,7 @@ import React from 'react'
 import profile from '../assets/nataliaProvatas.jpg'
 import '../style.scss'
 
-const About = () => (
+const About = () =>
   <div className="bio-container">
     <section className="bio">
       <p>Writer and filmmaker, Natalia Provatas, is a first generation Los Angeles native of Puerto Rican and Greek descent. </p>
@@ -15,6 +15,6 @@ const About = () => (
       <img className="profile-pic" src={profile} alt="picture of Natalia Provatas" />
     </aside>
   </div>
-)
+
 
 export default About
