@@ -6,7 +6,6 @@ module.exports = {
     title: `Natalia Provatas`,
   },
   plugins: [
-    `gatsby-plugin-glamor`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     {
