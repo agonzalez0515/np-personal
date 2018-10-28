@@ -10,10 +10,6 @@ import '../style.scss'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet>
-      <meta charset="UTF-8" /> 
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta name="description" content="Natalia Provatas: Writer and Filmmaker" /> 
-      <meta name="keywords" content="writer, filmmaker, content creator, refinary 29, the gloss" />
       {/* <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon"></link> */}
       <title>Natalia Provatas</title>
     </Helmet>
