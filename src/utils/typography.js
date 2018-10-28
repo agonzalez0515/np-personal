@@ -2,6 +2,9 @@ import Typography from "typography"
 import sutroTheme from "typography-theme-sutro"
 
 sutroTheme.overrideThemeStyles = () => ({
+    '@font-face': {
+      fontDisplay: 'auto',
+    },
     'a': {
       color: 'white',
     }
